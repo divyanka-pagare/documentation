@@ -181,3 +181,8 @@ Case 3 : commited changes (for many commits)
 - git log  // gives information about all commits in reverse chronological order.
 - git reset HASH // when we use hash, then all the changes we have made after that commit become unstaged.
 - git reset --hard HASH // it removes all changes forcefully from the the commits and HEAD goes to previous HASH.
+
+
+
+
+- Created by Divyanka
