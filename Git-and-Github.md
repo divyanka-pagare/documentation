@@ -109,7 +109,9 @@ it will create origin branch and push
 # Merging Code
 we can use git to merge code from different branches to main 
 
+```
 - git diff <-branch name->    (to compare commits, branches, files & more)
 - git merge <-branch name->   (to merge 2 branches)
-
-
+Or
+Ceate a PR
+```
