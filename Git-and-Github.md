@@ -71,8 +71,21 @@ code changes -> "add" (stage changes) -> "commit" (commit changes) -> push -> PR
 - git branch                       (to check branch)
 - git branch -M main               (to rename branch)
 - git checkout <-branch name->          (to navigate)
+```
+- git branch   // main
+* main
+- git checkout -b feature  //it switch to a new branch called 'feature'.
+if we want to switch to branch main
+* feature     (newly created)
+  main
+- git checkout main // now we are on main branch
+  feature
+* main
+```
+
 - git checkout -b <-new branch name->   (to create new branch)
 - git branch -d <-branch name->         (to delete branch)
+
 
 
 
