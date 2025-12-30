@@ -64,7 +64,8 @@ code changes -> "add" (stage changes) -> "commit" (commit changes) -> push -> PR
                     ----> 3 ----> 4 ---
 
 ```
-
+after merging into the main branch we can delete the bugfix or feature branch 
  
+
 
 
