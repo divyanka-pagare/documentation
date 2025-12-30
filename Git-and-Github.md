@@ -71,6 +71,8 @@ code changes -> "add" (stage changes) -> "commit" (commit changes) -> push -> PR
 - git branch                       (to check branch)
 - git branch -M main               (to rename branch)
 - git checkout <-branch name->          (to navigate)
+- git checkout -b <-new branch name->   (to create new branch)
+- git branch -d <-branch name->         (to delete branch)
 ```
 -> git branch   // main
 
@@ -93,12 +95,21 @@ if we want to switch to branch main
   main
 ```
 
-- git checkout -b <-new branch name->   (to create new branch)
-- git branch -d <-branch name->         (to delete branch)
+# after changing in feature branch 
+```
+- if we try to push to the code it will give you --->
+fatal : The current brach feature has no upstream branch.
 
+for that we have to set upstream for that use command
+-> git push --set-upstream origin feature
 
+it will create origin branch and push 
+```
 
+# Merging Code
+we can use git to merge code from different branches to main 
 
-
+- git diff <-branch name->    (to compare commits, branches, files & more)
+- git merge <-branch name->   (to merge 2 branches)
 
 
