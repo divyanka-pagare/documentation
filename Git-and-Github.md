@@ -48,12 +48,13 @@ code changes -> "add" (stage changes) -> "commit" (commit changes) -> push -> PR
 
 # Git Branches
 
+`
 - 1 -> 2 -> 3 -> 4 -> (Main) 
              | 
              3 -> 4 -> (feature)
+`
 
-
-
+`
               (Bugfix)
               _____ 2 ____
              |            | 
@@ -62,6 +63,7 @@ code changes -> "add" (stage changes) -> "commit" (commit changes) -> push -> PR
                    |                   |
                     ----> 3 ----> 4 ---
 
-
+`
 
  
+
