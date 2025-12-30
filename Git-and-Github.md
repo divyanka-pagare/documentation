@@ -86,10 +86,16 @@ if we want to switch to branch main
 
   feature
 * main
+
+- git checkout feature // now we are on feature branch
+
+* feature
+  main
 ```
 
 - git checkout -b <-new branch name->   (to create new branch)
 - git branch -d <-branch name->         (to delete branch)
+
 
 
 
