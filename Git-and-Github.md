@@ -122,13 +122,12 @@ Ceate a PR
 - merge pull request = 1 commit
 
 # Pull 
-(Fetch Changes from remote repository to local machine)
+Fetch Changes from remote repository to local machine
 
-- git pull origin main
-    used to fetch and download content from a remote repo and immidiately       update the local repo to match that content.
+- git pull origin main    // used to fetch and download content from a remote repo and immidiately update the local repo to match that content.
 
 # Merge Conflicts
-    An event that takes place when Git is unable to automatically resolve       differences in code between two commits.
+An event that takes place when Git is unable to automatically resolve       differences in code between two commits.
     
 ```
 Ex.
@@ -141,3 +140,4 @@ Adding a new change-main
 
 ```
   
+
