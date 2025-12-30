@@ -115,3 +115,29 @@ we can use git to merge code from different branches to main
 Or
 Ceate a PR
 ```
+
+# PR / Pull Request
+- It lets you tell others about changes you have pushed to a branch in a repository on GitHub.
+
+- merge pull request = 1 commit
+
+# Pull 
+(Fetch Changes from remote repository to local machine)
+
+- git pull origin main
+    used to fetch and download content from a remote repo and immidiately       update the local repo to match that content.
+
+# Merge Conflicts
+    An event that takes place when Git is unable to automatically resolve       differences in code between two commits.
+    
+```
+Ex.
+
+<<<<<<<<<<<<<<<<< HEAD (Current Change)
+Adding a new change-feature
+=======
+Adding a new change-main
+>>>>>>>>>main (Incoming Change)
+
+```
+  
