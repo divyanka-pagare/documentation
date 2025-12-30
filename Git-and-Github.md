@@ -144,10 +144,10 @@ Adding a new change-main
 - git checkout feature   
 
 - git branch
-
+```
   feature
 * main
-
+```
 - git merge feature   // if merge conflict is there
 
 (it gives --> 
@@ -186,3 +186,4 @@ Case 3 : commited changes (for many commits)
 
 
 - Created by Divyanka
+
